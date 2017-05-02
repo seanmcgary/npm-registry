@@ -1,6 +1,6 @@
 {
   "name": "diy-npm-registry",
-  "version": "1.0.0-beta3",
+  "version": "1.0.0-beta4",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
