@@ -1,4 +1,7 @@
 
-exports.googleCloud = require('./platforms/googleCloud');
+exports.googleCloud = (req, res) => {
+	process.env.REGISTRY_REGISTRY_MODULE_STORE_TYPE = 'googleStorage';
+	process.env.REGISTRY_REGISTRY_METADATA_STORE_TYPE = 'googleDatastore';
 
-console.log(exports);
+	require('./platforms/googleCloud')(req, res);
+}

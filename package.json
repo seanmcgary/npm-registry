@@ -1,5 +1,5 @@
 {
-  "name": "@seanmcgary/registry",
+  "name": "diy-npm-registry",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

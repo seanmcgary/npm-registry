@@ -1,7 +1,7 @@
 ## Hosting with Google Cloud functions
 
 ```
-BUCKET_NAME=<bucket-name>
+BUCKET_NAME=npm-registry
 
 gsutil mb "gs://${BUCKET_NAME}-deploy"
 
