@@ -1,6 +1,6 @@
 {
   "name": "diy-npm-registry",
-  "version": "1.0.0-beta1",
+  "version": "1.0.0-beta2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,8 @@
     "http-proxy": "^1.16.2",
     "lodash": "^4.17.4",
     "webserver-base": "^2.4.0"
+  },
+  "directories": {
+    "lib": "./lib"
   }
 }
